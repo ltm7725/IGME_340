@@ -1,6 +1,6 @@
 {
-    "name": "week4b",
-    "short_name": "week4b",
+    "name": "week4b_demo",
+    "short_name": "week4b_demo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

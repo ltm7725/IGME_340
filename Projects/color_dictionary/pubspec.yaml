@@ -1,0 +1,51 @@
+name: color_dictionary
+description: "A Color Dictionary Application"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  convert: ^3.1.2
+  flutter:
+    sdk: flutter
+  flutter_color_utils: ^0.0.1
+  flutter_colorpicker: ^1.1.0
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/gifs/Loading.gif
+
+  fonts:
+    - family: TransformaSans
+      fonts:
+        - asset: assets/fonts/TransformaMix_Trial-ExtraLight-BF660ca8e1ba095.otf
+        - asset: assets/fonts/TransformaMix_Trial-Light-BF660ca8e1ac32b.otf
+        - asset: assets/fonts/TransformaMix_Trial-Medium-BF660ca8e10d190.otf
+        - asset: assets/fonts/TransformaMix_Trial-Regular-BF660ca8e12185b.otf
+        - asset: assets/fonts/TransformaMix_Trial-SemiBold-BF660ca8e1a26a1.otf
+        - asset: assets/fonts/TransformaSans_Trial-Black-BF660ca8e05d182.otf
+        - asset: assets/fonts/TransformaSans_Trial-Bold-BF660ca8e06490f.otf
+        - asset: assets/fonts/TransformaSans_Trial-ExtraBlack-BF660ca8e06a42c.otf
+        - asset: assets/fonts/TransformaSans_Trial-ExtraBold-BF660ca8e06ac5b.otf
+        - asset: assets/fonts/TransformaSans_Trial-Extralight-BF660ca8e04b886.otf
+        - asset: assets/fonts/TransformaSans_Trial-Light-BF660ca8e073548.otf
+        - asset: assets/fonts/TransformaSans_Trial-Medium-BF660ca8e0964ef.otf
+        - asset: assets/fonts/TransformaSans_Trial-Regular-BF660ca8e0469c7.otf
+        - asset: assets/fonts/TransformaSans_Trial-SemiBold-BF660ca8e083343.otf
+        - asset: assets/fonts/TransformaScript_Trial-ExtraLight-BF660ca8dca5c7b.otf
+        - asset: assets/fonts/TransformaScript_Trial-Light-BF660ca8de6c78b.otf
+        - asset: assets/fonts/TransformaScript_Trial-Medium-BF660ca8df94ba1.otf
+        - asset: assets/fonts/TransformaScript_Trial-Regular-BF660ca8df840d2.otf
+        - asset: assets/fonts/TransformaScript_Trial-SemiBold-BF660ca8dfdec41.otf

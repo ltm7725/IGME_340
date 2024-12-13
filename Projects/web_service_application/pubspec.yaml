@@ -1,0 +1,24 @@
+name: web_service_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  convert: ^3.1.2
+  flutter:
+    sdk: flutter
+  flutter_color_utils: ^0.0.1
+  flutter_colorpicker: ^1.1.0
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
